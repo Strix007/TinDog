@@ -1,0 +1,242 @@
+
+
+/* Global */
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Montserrat' !important;
+    font-weight: bold !important;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.colored-section-alt {
+    background-color: #f67280;
+    color: #fff;
+}
+
+/* Title */
+
+
+.he-1 {
+    font-family: "Montserrat-Black", sans-serif;
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.5;
+}
+
+.first-view {
+    padding: 3% 15% !important;
+}
+
+body {
+    font-family: 'Montserrat' !important;
+}
+
+/* Nav-Bar */
+
+.navtindog {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem !important;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Title-Buttons */
+
+.h-d-btn {
+    font-family: 'Montserrat';
+}
+
+.title-download-bnt {
+    margin: 5% 3% 5% 0 !important;
+    font-family: 'Montserrat';
+}
+
+/* iPhone-Img */
+
+.iphone-mockup {
+    width: 15%;
+    position: absolute;
+    transform: rotate(25deg);
+}
+
+
+/* Features */
+
+
+.all-features {
+    text-align: center;
+    padding: 7%;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.feature-box {
+    padding: 7%;
+}
+
+.fontawesome-icons {
+    padding: 0 0 10px 0 !important;
+}
+
+.f-h {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+.f-p {
+    color: #8f8f8f8f;
+}
+
+/* Feature-Icons */
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.icon {
+    color: #f67280;
+    padding: 4.5rem 0 0 0;
+}
+
+
+/* Testimonials */
+
+
+#testimonials {
+    text-align: center;
+}
+
+/* Testimonial-Img */
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+/* Press */
+
+
+#press {
+    text-align: center;
+    padding: 0 0 3% 0;
+}
+
+/* Press-Img */
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Carousel */
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Shopping-Modules */
+
+.all-cards {
+    text-align: center;
+    padding: 100px;
+}
+
+/* Pricing */
+
+.pricing-text {
+    text-align: center;
+}
+
+.pricing-h1 {
+    padding: 100px 0 0 0;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.pricing-cards {
+    padding: 3% 2%;
+}
+
+
+/* Call-To-Action */
+
+
+#cta {
+    text-align: center;
+    padding: 20px;
+}
+
+.cta-h {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding: 10rem 7.5rem 0.75rem;
+}
+
+.cta-b {
+    font-family: 'Montserrat';
+}
+
+
+/* Footer */
+
+
+#footer {
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-icons {
+    padding: 0 10px;
+}
+
+.footer-p {
+    color: #8f8f8f8f;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+
+
+/* Media Query */
+
+
+@media (max-width: 1024px) {
+    .iphone-mockup {
+        transform: rotate(0);
+        position: relative;
+        width: 60%;
+        text-align: center;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
